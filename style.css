@@ -1,0 +1,688 @@
+/* universal styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/***************************** font style **************************/
+section h2,
+.plans h3,
+.footer h4,
+.form-container h3,
+.lifeT-membership h3 {
+  font-family: 'Oswald', sans-serif;
+}
+.program-benifits .col-md-6 h3,
+.topic h4,
+.vivek-card p,
+.card-body p,
+.about-vb .list-container h3,
+.lifeT-membership .top-section ul li,
+.side-format ul li,
+.courses .my-card p,
+.ibc-ul li {
+  font-family: 'Poppins', sans-serif;
+}
+/********************************** color ****************************/
+section h2,
+.top-contact-div ul li i,
+.carousel-item blockquote span,
+.swiper-slide .card,
+.plans h3,
+.app-features .row p,
+.about-vb .list-container h3,
+.form-container h3 span,
+.style-header span,
+.my-btn,
+.expert-card h5,
+.contact-us i,
+.contact-us h4 {
+  color: #eac437;
+}
+.topic h4,
+.vivek-card,
+.card-body h4 {
+  background-color: #eac437;
+}
+.vivek-card,
+.card-body h4 {
+  color: #1f1f1f;
+}
+.card-body p,
+.footer,
+.copyright,
+.courses .my-card,
+.contact-us .social-media i,
+section,
+.top-contact-div,
+.carousel-item blockquote,
+.expert-card,
+.navbar .dropdown-menu .active {
+  color: #ccc;
+}
+/********************************** border ****************************/
+.topic,
+.swiper-slide .card,
+.my-btn,
+.ibc-ul li,
+.expert-card {
+  border: 1px solid #eac437;
+}
+/*************************** bootstrap clearance **********************/
+.container-fluid {
+  padding: 0;
+}
+.row {
+  margin: 0 !important;
+  padding: 0;
+  margin: auto !important;
+}
+/*************************** global styles *************************/
+section {
+  background-color: #000;
+  padding: 50px 0;
+}
+section h2 {
+  text-align: center;
+  padding: 0.5em 0;
+  margin: 0 3em;
+  border-bottom: 1px solid #ffc600;
+  font-size: 2.3em;
+  text-transform: uppercase;
+  margin-bottom: 1.5em;
+}
+.style-header {
+  text-transform: capitalize;
+  font-size: 2.5em;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 1.5em;
+}
+a {
+  color: inherit;
+  font-weight: 600;
+}
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+figure {
+  text-align: center;
+  margin: 0;
+}
+.navbar .dropdown-menu .active {
+  background-color: #aa8b1b;
+}
+/************************** custom style **********************/
+.top-contact-div {
+  background-color: #000;
+}
+.top-contact-div ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px 0;
+  margin: 0 auto;
+}
+.top-contact-div ul li {
+  list-style: none;
+  display: inline-block;
+}
+.nav-cf {
+  position: sticky;
+  top: 0;
+  z-index: 9999999;
+  box-shadow: 0 0 10px 10px rgba(59, 59, 59, 0.151);
+}
+.nav-cf,
+.dropdown-menu,
+.navbar {
+  background-color: #eac437 !important;
+}
+.navbar-brand {
+  width: 200px;
+}
+.navbar-brand img {
+  width: 70%;
+}
+.nav-link {
+  font-weight: 600;
+}
+.nav-item.active {
+  color: red !important;
+}
+.dropdown-menu a:hover {
+  background-color: #aa8b1b;
+  color: #fff;
+}
+/* landing page */
+.landing-page {
+  height: 85.5vh;
+  background-image: url(images/background.jpg);
+  position: relative;
+  overflow: hidden;
+}
+.dvb-img {
+  width: 22%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.intro-div {
+  text-align: right;
+  margin: 15px;
+}
+.intro-div img {
+  width: 20%;
+}
+#carouselExampleFade {
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  transform: translate(-90%, -50%);
+}
+.carousel-item blockquote {
+  font-size: 2.5em;
+}
+/* everything-about */
+.everything-about {
+  padding: 50px 0;
+}
+/* program benifits */
+.program-benifits .row {
+  width: 90%;
+  margin: auto !important;
+}
+.program-benifits .col-md-6 {
+  background: rgba(59, 59, 59, 0.151);
+  margin: 1em 0;
+  padding: 1em 0;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+}
+.program-benifits .col-md-6 h3 {
+  margin-left: 1em;
+  font-size: 1.1em;
+}
+/* topics */
+.topic {
+  background-color: transparent;
+  text-align: center;
+  padding: 1em 0;
+  margin: 1em 0;
+  border-radius: 5px;
+}
+.topic img {
+  width: 80%;
+  margin-bottom: 1em;
+}
+.topic h4 {
+  border-bottom: 2px solid #000;
+  border-top: 2px solid #000;
+  padding: 5px 0;
+  color: #000;
+  font-size: 1em;
+}
+/* teachers */
+.vivek-card {
+  width: 70%;
+  margin: auto !important;
+  padding: 1em;
+  border-radius: 5px;
+}
+.vivek-card h3 {
+  font-weight: 500;
+}
+.vivek-card button {
+  padding: 0.2em 1em;
+  border-radius: 17px;
+  background: transparent;
+  border: 1px solid #000;
+}
+.swiper-slide {
+  margin: 2em 0;
+}
+.swiper-slide .card {
+  text-align: center;
+  background-color: transparent;
+  padding: 1em 0;
+  min-height: 430px;
+}
+.swiper-slide img {
+  width: 40%;
+  margin: auto;
+}
+.card-body {
+  padding: 1em 0 0 0;
+}
+.card-body p {
+  padding: 1em;
+  text-align: justify;
+}
+/* plans */
+.plans {
+  padding: 2em 0;
+}
+.plans h3 {
+  text-align: center;
+  padding: 0.5em 0;
+  background-color: #eac437;
+  color: #1f1f1f;
+  font-size: 2.2em;
+  text-transform: uppercase;
+  margin-bottom: 1.5em;
+}
+/* app features */
+.app-features {
+  padding-bottom: 5em;
+}
+.app-features .row {
+  width: 80%;
+  margin: auto !important;
+}
+.app-features .row p {
+  font-size: 1.5em;
+  text-align: center;
+}
+.app-features figure img {
+  width: 80%;
+}
+/* footer */
+.footer {
+  background-color: #1f1f1f;
+  padding: 2em !important;
+}
+.footer h4 {
+  border-bottom: 2px solid #f9cc22;
+  padding: 0.5em 0;
+  margin-bottom: 1em;
+}
+.footer ul li {
+  list-style: none;
+  margin: 1em 0;
+}
+.footer .social-media li {
+  display: inline;
+  margin-right: 1em;
+  font-size: 1.5em;
+}
+.footer .btn {
+  padding: 0.2em 3em;
+}
+.footer .google-map {
+  width: 100%;
+  height: 250px;
+}
+.copyright {
+  background-color: #2e2e2e;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 1em;
+}
+/* ---------------------About Vivek Bindra Page Start-------------------- */
+.about-vb figure {
+  margin: 0;
+}
+.about-vb figure img {
+  width: 100%;
+}
+.about-vb .list-container ul li {
+  font-size: 1.2em;
+  margin: 1em 0;
+  list-style-type: square;
+}
+/* ---------------------About Vivek Bindra Page End-------------------- */
+/* ---------------------Life time membership Start-------------------- */
+.lifeT-membership .top-section h6 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  color: aquamarine;
+}
+.lifeT-membership .top-section ul li {
+  font-size: 1.2em;
+  margin: 0.5em 0;
+}
+.lifeT-membership figure img {
+  width: 100%;
+}
+.lifeT-membership .aladin-img {
+  width: 80%;
+}
+.form-container h3,
+.lifeT-membership h3 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 2em;
+}
+
+.get-section figure img {
+  width: 60%;
+}
+.side-format ul li {
+  margin: 1em 0;
+  font-size: 1.2em;
+}
+.courses .my-card {
+  background-color: #464646;
+  padding: 1em;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5em;
+}
+.courses .my-card img {
+  height: 150px;
+  width: 150px;
+  margin-right: 1em;
+}
+.courses .my-card p {
+  font-size: 1.2em;
+}
+.form-container {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 2em;
+  border-radius: 15px 0;
+}
+.my-btn {
+  padding: 0.5em 3em;
+  background: transparent;
+  margin-top: 1em;
+}
+/* ---------------------Life time membership End-------------------- */
+/* ---------------------IBC page Start-------------------- */
+.ibc-ul li {
+  list-style: none;
+  padding: 0.5em;
+  margin: 1em 0;
+  text-align: center;
+  font-size: 1.3em;
+}
+.ibc figure,
+.ibc figure img {
+  width: 100%;
+}
+/* ---------------------IBC page End-------------------- */
+/* ---------------------PSC page Start-------------------- */
+.psc-side-format .col-md-6 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5em;
+}
+.expert-card {
+  text-align: center;
+  padding: 1.5em 1em;
+  height: 330px;
+}
+.expert-card h5 {
+  font-size: 1.5em;
+  margin: 1em 0;
+}
+/* ---------------------PSC page End-------------------- */
+/* --------CSS FOR GALLERY START------------ */
+.gallery-cf {
+  padding: 50px 0;
+}
+.gallery-cf .gallery-container {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-auto-flow: dense;
+  grid-template:
+    '1fr 1fr 1fr 1fr 1fr' 33.33vh
+    '1fr 1fr 1fr 1fr 1fr' 33.33vh
+    '1fr 1fr 1fr 1fr 1fr' 33.33vh;
+  grid-gap: 5px;
+}
+.gallery-cf .gallery-container .box {
+  position: relative;
+  background: #ccc;
+}
+.gallery-container .box.a {
+  grid-row: span 2;
+}
+.gallery-container .box.b,
+.gallery-container .box.f,
+.gallery-container .box.h,
+.gallery-container .box.g {
+  grid-column: span 2;
+}
+.gallery-container .box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* --------CSS FOR GALLERY END------------ */
+/* --------Contact us start------------ */
+.contact-us {
+  text-align: center;
+}
+.contact-us .i-div {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 1em auto;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.contact-us i {
+  font-size: 2em;
+  transition: all 0.5s ease;
+}
+.contact-us a {
+  font-weight: normal;
+}
+.contact-us .i-div:hover i {
+  transform: scale(0.8);
+}
+.contact-us iframe {
+  width: 100%;
+  height: 400px;
+  margin-top: 2em;
+}
+/* -------------------CSS for Branch Office------------- */
+.odisha-img figure img {
+  width: 40%;
+  padding-top: 2.5em;
+}
+.branches .my-card {
+  margin-bottom: 2em;
+}
+.branches .my-card h4 {
+  background-color: #eac437;
+  color: #000;
+  padding: 0.2em;
+}
+.branches ul li {
+  list-style: none;
+  margin-top: 0.5em;
+  font-size: 1.2em;
+}
+/* *************************Media Query 800px **************************/
+@media (max-width: 800px) {
+  section h2 {
+    padding: 0.3em 0;
+    font-size: 1.8em;
+    margin-bottom: 1em;
+  }
+  .top-contact-div ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .top-contact-div ul li {
+    margin: 5px 0;
+  }
+  ul {
+    width: 90%;
+    margin: auto;
+  }
+  section h2 {
+    margin: 0 1em 1em 1em;
+  }
+  /* landing page */
+  .landing-page {
+    height: 75vh;
+  }
+  .dvb-img {
+    width: 30%;
+  }
+  #carouselExampleFade {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .carousel-item blockquote {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  /* program benifits */
+  .program-benifits .row {
+    width: 100%;
+  }
+  .program-benifits .row img {
+    width: 20%;
+  }
+  .program-benifits .col-md-6 {
+    margin: 0.5em 0;
+    padding: 1em;
+  }
+  .program-benifits .col-md-6 h3 {
+    font-size: 1em;
+  }
+  /* teachers */
+  .vivek-card {
+    width: 95%;
+    padding: 1em 0.5em;
+  }
+  .vivek-card h3 {
+    font-weight: 500;
+  }
+  .vivek-card p {
+    font-family: 'Poppins', sans-serif;
+  }
+  .vivek-card button {
+    padding: 0.2em 1em;
+    border-radius: 17px;
+    background: transparent;
+    border: 1px solid #000;
+  }
+  /* plans */
+  .plans {
+    padding: 2em 0;
+  }
+  .plans h3 {
+    font-size: 1.5em;
+    margin: 1em;
+    border-bottom: none;
+    border-top: none;
+  }
+  .app-features .row {
+    width: 90%;
+  }
+  .app-features .row p {
+    color: #fff;
+    font-size: 1.3em;
+    margin-bottom: 2em;
+  }
+  /* footer */
+  .footer {
+    padding: 2em 0.5em !important;
+  }
+  .copyright {
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+  }
+  /* ---------------Media Query for About Vivek Bindra Page Start-------------------- */
+  .about-vb h3 {
+    margin: 1.5em 0;
+  }
+  .about-vb .list-container ul li {
+    font-size: 1em;
+  }
+  /* --------------Media Query for About Vivek Bindra Page End-------------------- */
+  /* --------------Media Query for Life time membership Start-------------------- */
+  .lifeT-membership .top-section h6 {
+    font-size: 1.1em;
+  }
+  .lifeT-membership .top-section ul li {
+    font-size: 1em;
+  }
+  .form-container h3,
+  .lifeT-membership h3 {
+    font-size: 1.5em;
+  }
+  .get-section figure img {
+    margin: 1em 0;
+  }
+  .side-format ul li {
+    font-size: 1em;
+  }
+  .courses .my-card {
+    padding: 1em 0.5em;
+  }
+  .courses .my-card img {
+    height: 100px;
+    width: 100px;
+    margin-right: 1em;
+  }
+  .courses .my-card p {
+    font-size: 1em;
+  }
+  .form-container {
+    border-radius: 0;
+  }
+  /* ------------Media Query for Life time membership  End----------- */
+  .ibc figure,
+  .ibc figure img {
+    width: 100%;
+  }
+  .ibc figure img {
+    width: 80%;
+  }
+  .ibc iframe {
+    width: 100%;
+  }
+  /* ---------------------PSC page Start-------------------- */
+  .expert-card {
+    padding: 1em;
+    height: auto;
+    margin: 1em;
+  }
+  .expert-card h5 {
+    font-size: 1.1em;
+  }
+  /* ---------------------PSC page End-------------------- */
+  .gallery-cf {
+    padding: 50px 5px;
+  }
+  .gallery-cf .gallery-container {
+    grid-template:
+      '1fr 1fr' 250px
+      '1fr 1fr' 250px
+      '1fr 1fr' 250px
+      '1fr 1fr' 250px
+      '1fr 1fr' 250px
+      '1fr 1fr' 250px
+      '1fr 1fr' 250px;
+    grid-gap: 2px;
+  }
+  .gallery-container .box.h {
+    grid-column: span 0;
+  }
+  /* --------Contact us start------------ */
+  .contact-us .i-div {
+    height: 80px;
+    width: 80px;
+  }
+  .contact-us i {
+    font-size: 1.5em;
+  }
+  .contact-us iframe {
+    height: 200px;
+  }
+}

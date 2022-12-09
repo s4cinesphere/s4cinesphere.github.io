@@ -234,7 +234,7 @@ body.active { overflow: hidden; }
   color: var(--youtube);
   font-size: var(--fs-11);
   font-weight: var(--fw-700);
-  text-transform: ;
+ 
   letter-spacing: 2px;
   display: flex;
   align-items: center;
@@ -645,7 +645,7 @@ body.active { overflow: hidden; }
 \*-----------------------------------*/
 
 .hero {
-  background: url("../images/hero-bg.jpg") no-repeat;
+  background: url("../images/hero-bg.gif") no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 750px;
@@ -1463,7 +1463,7 @@ body.active { overflow: hidden; }
   .footer-bottom .container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
   }
 
   .quicklink-list { margin-bottom: 0; }

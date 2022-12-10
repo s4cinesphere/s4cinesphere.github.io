@@ -902,7 +902,7 @@ body.active { overflow: hidden; }
   background: url("../images/cta-bg.jpg") no-repeat;
   background-size: cover;
   background-position: center;
-  text-align: center;
+  text-align: left;
   padding-block: 50px;
 }
 
